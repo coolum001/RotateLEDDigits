@@ -144,7 +144,7 @@ class RotatedMatrix8x8:
         byte = 0
         for x in range(8):
             if matrix_row_y[x]:
-                byte |= 1 << x
+                byte |= 1 << (7 - x)
         return byte
 
     def show(self):
