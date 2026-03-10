@@ -29,6 +29,7 @@ def show_2_digits_rotated(display):
     #end for
 #end show_2_digits_rotated
 
-
-show_2_digits_rotated(display)
+for j in range(100):
+    show_2_digits_rotated(display)
+#end for
 
